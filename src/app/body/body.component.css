@@ -1,0 +1,25 @@
+form div input{
+    width: 15rem;
+    margin-left: 38%;
+}
+
+form div{
+    margin-top: 2%;
+}
+
+form div button{
+    margin-top: 3%;
+    margin-left: 45%;
+}
+button{
+    color: black;
+    border-color: blueviolet;
+}
+
+.nav li{
+    margin: 10% 0 10% 0;
+}
+
+.card{
+    margin-bottom: 5%;
+}

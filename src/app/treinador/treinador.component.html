@@ -1,0 +1,22 @@
+<form (ngSubmit) = "addTreinador(f)" #f="ngForm">
+
+  <div class="container" style="background-color: #EF5350;margin-top: 5%;">
+
+
+    <label for="nome">Nome do treinador:</label>
+    <input type="text" class="form-control"  name="nome" placeholder="Nome" ngModel>
+
+    <label for="idade">Idade</label>
+    <input type="number" class="form-control" name="idade" placeholder="Idade" ngModel>
+
+    
+    <button  type="submit">Registrar</button>
+    
+    <br>
+    <br>
+
+  </div>
+
+</form>
+
+<p *ngFor="let treinador of treinadores">{{treinador.getNome()}}</p>
